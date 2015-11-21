@@ -24,6 +24,22 @@ Description
 
 It is controlled and configured via *bspc*.
 
+Since literally *all* commands were missing *any* kind of help output, I decided to fork this project.
+
+This is seriously something that should *not* happen in any kind of UNIX software, no matter how lazy or busy the developer is:
+
+>  ~  bspc --help
+Unknown command.
+>  ~  bspc -h    
+Unknown command.
+>  ~  bspc help
+Unknown command.
+>  ~  man bspc
+No manual entry for bspc
+See 'man 7 undocumented' for help when manual pages are not available.
+>  ~
+
+Combined with the fact that even the config files in the examples folder don't have comments whatsoever, this makes bspwm entirelly counter-intuitive and a true pain for newcomers, so I decided to fork this project to put some efforts into this. Don't get me wrong, I love the work Bastian did there, I love to use bspwm and so, but I fail to see why someone would open-source their project if they're acting so much like a misanthrope then.
 
 Options
 -------
